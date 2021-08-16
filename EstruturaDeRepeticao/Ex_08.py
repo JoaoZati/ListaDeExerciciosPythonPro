@@ -10,7 +10,7 @@ numero = 0
 
 while True:
     try:
-        lista_5.append(float(input('Insira 5 numeros, numero {numero}: ')))
+        lista_5.append(float(input(f'Insira 5 numeros, numero {numero}: ')))
     except ValueError:
         print('Deve informar um numero real')
     else:
